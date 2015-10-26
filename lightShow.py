@@ -17,7 +17,7 @@ R5=25
 R6=22
 R7=17
 R8=18
-pinList = [R1,R2,R3,R4,R5,R6,R7,R8]
+pinList = [R1,R2,R3,R4] #,R5,R6,R7,R8]
 
 SleepTimeL = .1
 
@@ -63,7 +63,7 @@ def blink():
 allOff()
 
 # main loop
-
+print "run2"
 try:
 	leftToright()
 	rightToLeft()
